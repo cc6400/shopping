@@ -1,0 +1,19 @@
+.cart-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.cart-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-container li {
+    margin-bottom: 10px;
+}
+
+.cart-container button {
+    margin-top: 10px;
+    margin-right: 10px;
+}

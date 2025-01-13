@@ -1,0 +1,49 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./780.jpg'); /* 确保路径正确 */
+    background-size: cover; /* 使背景图像覆盖整个页面 */
+    background-position: center; /* 将背景图像居中 */
+    background-repeat: no-repeat; /* 不重复背景图像 */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px; /* 设置最大宽度，使内容居中 */
+    margin: 0 auto; /* 居中容器 */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* 标题居中 */
+}
+
+/* 添加导航栏样式 */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around; /* 均匀分布按钮 */
+    flex-wrap: wrap; /* 按钮换行 */
+}
+
+.nav-buttons button {
+    background-color: #007bff; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
+    border: none; /* 去掉边框 */
+    padding: 10px 15px; /* 按钮内边距 */
+    border-radius: 5px; /* 按钮圆角 */
+    cursor: pointer; /* 鼠标悬停时指针变为手形 */
+    transition: background-color 0.3s; /* 动画效果 */
+    font-size: 16px; /* 按钮字体大小 */
+}
+
+.nav-buttons button:hover {
+    background-color: #0056b3; /* 悬停时按钮颜色变化 */
+}

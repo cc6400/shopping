@@ -1,0 +1,47 @@
+/* src/components/Register.css */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使容器高度为视口高度 */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* 设置表单宽度 */
+}
+
+.register-form div {
+    margin-bottom: 15px; /* 表单项之间的间距 */
+}
+
+.register-form label {
+    margin-bottom: 5px; /* 标签与输入框之间的间距 */
+}
+
+.register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* 输入框宽度占满父容器 */
+}
+
+.register-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
